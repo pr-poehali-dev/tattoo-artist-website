@@ -41,7 +41,7 @@ const Index = () => {
         <div 
           className="absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage: `url('/img/ba410bce-c8cc-4455-9fd2-ca5b1098b512.jpg')`
+            backgroundImage: `url('/img/dc555549-d948-40b7-99ac-adb3ea4103ae.jpg')`
           }}
         />
         <div className="relative z-20 text-center px-4">
@@ -100,7 +100,7 @@ const Index = () => {
             <div className="relative">
               <div className="border-4 border-brutal-red">
                 <img 
-                  src="/img/ba410bce-c8cc-4455-9fd2-ca5b1098b512.jpg"
+                  src="/img/dc555549-d948-40b7-99ac-adb3ea4103ae.jpg"
                   alt="Евгений Бакурский"
                   className="w-full h-96 object-cover grayscale"
                 />
@@ -121,22 +121,37 @@ const Index = () => {
               Каждая татуировка — это уникальное произведение искусства
             </p>
           </div>
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-3 lg:grid-cols-3 gap-8">
             {[
               { 
-                image: "/img/45beb640-fc25-497b-82fa-d6b1525b08e8.jpg",
+                image: "/img/91c08427-cc0b-4bff-91ed-1a60333b370f.jpg",
                 category: "РЕАЛИЗМ",
                 title: "Портрет в стиле реализм"
               },
               { 
-                image: "/img/4e71a8cc-67de-4811-9816-7f14a297a846.jpg",
+                image: "/img/106cbc64-e1f1-42b6-902c-df12439fe018.jpg",
                 category: "БИОМЕХАНИКА",
                 title: "Механический дизайн"
               },
               { 
-                image: "/img/45beb640-fc25-497b-82fa-d6b1525b08e8.jpg",
+                image: "/img/50d09271-26d7-4da3-bde1-b6b73847a522.jpg",
                 category: "ОРНАМЕНТЫ",
                 title: "Декоративные узоры"
+              },
+              { 
+                image: "/img/8beb2fe0-b986-4de7-88cc-adfd4b16ec13.jpg",
+                category: "TRADITIONAL",
+                title: "Традиционный стиль"
+              },
+              { 
+                image: "/img/7435189f-8206-46b4-9f6f-19e1fe8b4230.jpg",
+                category: "NEO-TRADITIONAL",
+                title: "Нео-традиционный стиль"
+              },
+              { 
+                image: "/img/91c08427-cc0b-4bff-91ed-1a60333b370f.jpg",
+                category: "BLACKWORK",
+                title: "Черная графика"
               }
             ].map((work, index) => (
               <Card key={index} className="bg-brutal-darkgray border-brutal-darkgray hover:border-brutal-red transition-all duration-300 group">
