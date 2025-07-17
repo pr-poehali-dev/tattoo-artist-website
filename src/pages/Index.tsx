@@ -50,7 +50,7 @@ const Index = () => {
             <span className="text-brutal-red block">БАКУРСКИЙ</span>
           </h1>
           <p className="text-xl md:text-2xl font-light mb-8 animate-fade-in">
-            ТАТУ МАСТЕР С 10-ЛЕТНИМ СТАЖЕМ
+            ТАТУ МАСТЕР СО СТАЖЕМ БОЛЕЕ 10 ЛЕТ
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center animate-scale-in">
             <Button className="bg-brutal-red hover:bg-brutal-darkred text-white px-8 py-3 text-lg font-oswald">
