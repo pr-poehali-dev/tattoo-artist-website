@@ -77,7 +77,7 @@ const Index = () => {
                 ПРОФЕССИОНАЛЬНЫЙ ПУТЬ
               </h3>
               <p className="text-lg mb-6 text-gray-300">
-                Работаю в сфере татуировки с мая 2014 года. За это время создал более 2000 уникальных работ, каждая из которых отражает индивидуальность клиента.
+                Работаю в сфере татуировки с мая 2014 года. За более чем 10 лет создал множество уникальных работ, каждая из которых отражает индивидуальность клиента.
               </p>
               <p className="text-lg mb-6 text-gray-300">
                 Специализируюсь на черно-белом реализме, биомеханике и декоративных орнаментах. Постоянно совершенствую технику и изучаю новые направления.
@@ -88,7 +88,7 @@ const Index = () => {
                   <div className="text-sm text-gray-400">ЛЕТ ОПЫТА</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-oswald font-bold text-brutal-red">2000+</div>
+                  <div className="text-3xl font-oswald font-bold text-brutal-red">1000+</div>
                   <div className="text-sm text-gray-400">РАБОТ</div>
                 </div>
                 <div className="text-center">
@@ -222,13 +222,13 @@ const Index = () => {
               {
                 city: "АНАПА",
                 address: "ул. Крымская, 15",
-                phone: "+7 (861) 234-56-78",
+                phone: "+7-918-47-57-183",
                 hours: "10:00 - 22:00"
               },
               {
                 city: "БЕЛГОРОД",
                 address: "ул. Победы, 28",
-                phone: "+7 (472) 345-67-89",
+                phone: "+7-918-47-57-183",
                 hours: "10:00 - 22:00"
               }
             ].map((studio, index) => (
